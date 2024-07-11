@@ -14,13 +14,6 @@ body {
     position: relative;
 }
 
-/* button {
-    max-height: 30px;
-    padding: 10px;
-    border: 0px;
-    text-align: center;
-    line-height: 30px;
-} */
 
 button {
     min-height: 20px;
@@ -46,10 +39,16 @@ h1 {
     padding: 50px 0;
 }
 
+h2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
 img {
     display: block;
     max-width: 100%;
 }
+
 
 /* Utilities */
 
@@ -59,8 +58,9 @@ img {
 }
 
 .sm-container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+    padding-top: 120px;
 }
 
 .clearfix::afeter {
@@ -136,3 +136,29 @@ header {
     float: right;
     max-height: 350px;
 }
+
+/* business */
+
+.payment-options {
+    gap: 20px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.first-pay-circle {
+    height: 15px;
+    width: 15px;
+    border: 3px solid #0061FF;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+.second-pay-circle {
+    height: 15px;
+    width: 15px;
+    border: 2px solid grey;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+/* Business plan */
