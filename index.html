@@ -5,28 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="GiovanniZumbo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="nav-bar">
-            <div class="nav-bar-left">
+        <div class="nav-bar flex">
+            <div class="nav-bar-left border flex">
 
                 <!-- Logo + ul 3 link -->
 
-                <img src="#" alt="" id="logo">
-                <ul class="nav-sections"></ul>
+                <img src="img/logo-small.png" alt="dropboxlogo" id="logo">
+                <ul class="nav-sections flex">
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                    <li><a href="#">Piani e Prezzi</a></li>
+                </ul>
 
             </div>
 
-            <div class="nav-bar-right">
+            <div class="nav-bar-right border flex">
 
                 <!-- ul 3 link + button -->
 
-                <ul class="nav-sections"></ul>
-                <button class="start"></button>
+                <ul class="nav-sections flex">
+                    <li><a href="#">Supporto</a></li>
+                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a href="#">Accedi</a></li>
+
+                </ul>
+
+                <button class="start bg-blue"><a class="white" href="#">Inizia<a href="#"></a></a></button>
 
             </div>
         </div>
