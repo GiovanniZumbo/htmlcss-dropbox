@@ -11,6 +11,7 @@
 body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
+    position: relative;
 }
 
 button {
@@ -54,15 +55,20 @@ a {
     color: white;
 }
 
-
-
 /* header */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
 
 /* navbar */
 .nav-bar {
     justify-content: space-between;
     height: 60px;
-    /* padding: 0 10px; */
+    position: relative;
 }
 
 .nav-bar>* {
