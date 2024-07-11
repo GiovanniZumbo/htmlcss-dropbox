@@ -50,6 +50,8 @@ img {
     max-width: 100%;
 }
 
+
+
 /* tools */
 
 .border1 {
@@ -165,10 +167,19 @@ header {
 
 /* Business plan */
 
-.plan-row {}
+.business-plan {
+    margin-top: 50px;
+}
+
+.plan-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
 
 .plan-col {
-    max-width: calc(100% / 3);
+    flex-basis: calc((100% / 3) - 106px);
+    flex-grow: 1;
     border: 1px solid lightgrey;
 }
 
@@ -187,13 +198,33 @@ header {
     padding: 0 30px;
 }
 
+.plan-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.plan-col {
+    flex-basis: calc((100% / 3) - 106px);
+    flex-grow: 1;
+    border: 1px solid lightgrey;
+}
+
+.fa-ul li {
+    margin-left: -15px;
+    text-align: left;
+}
+
+.fa-li {
+    display: inline-block;
+}
+
 .free-trial {
     width: 100%;
 }
 
-
-#sm-br {
+.sm-br {
     border: 1px solid lightgrey;
     width: calc(100% / 5);
-    padding: 0 0;
+    padding: 0;
 }
