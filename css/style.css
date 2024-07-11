@@ -28,7 +28,8 @@ ul {
     list-style-type: none;
 }
 
-a {
+button a,
+ul a {
     text-decoration: none;
     color: black;
 }
@@ -49,6 +50,15 @@ img {
     max-width: 100%;
 }
 
+/* tools */
+
+.border1 {
+    border: 2px dashed black;
+}
+
+.border2 {
+    border: 2px dashed rgb(255, 0, 0);
+}
 
 /* Utilities */
 
@@ -63,23 +73,14 @@ img {
     padding-top: 120px;
 }
 
-.clearfix::afeter {
-    content: '';
-    display: block;
-    clear: both;
-}
 
 .flex {
     display: flex;
 }
 
-.border1 {
-    border: 2px dashed black;
-}
-
-.border2 {
-    border: 2px dashed rgb(255, 0, 0);
-}
+/* .sm-pad {
+    padding: 10px 0;
+} */
 
 .bg-blue {
     background-color: #0061FF;
@@ -100,6 +101,7 @@ header {
     top: 0;
     left: 0;
     background-color: white;
+    padding: 0 15px;
 }
 
 /* navbar */
@@ -162,3 +164,34 @@ header {
 }
 
 /* Business plan */
+
+.plan-row {}
+
+.plan-col {
+    max-width: calc(100% / 3);
+    border: 1px solid lightgrey;
+}
+
+.plan-type {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.plan-col * {
+    padding: 10px 0;
+}
+
+.plan-card {
+    margin: 0 10px;
+}
+
+.free-trial {
+    width: 100%;
+}
+
+#sm-br {
+    border: 1px solid lightgrey;
+    width: calc(100% / 5);
+    padding: 0 0;
+}
