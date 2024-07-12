@@ -47,6 +47,40 @@ img {
     max-width: 100%;
 }
 
+/* square background colors */
+
+.bg-lt-green {
+    background-color: #A2D39B;
+}
+
+.bg-dk-red {
+    background-color: #61082B;
+}
+
+.bg-sky-blue {
+    background-color: #0093CE;
+}
+
+.bg-lt-red {
+    background-color: #FF1C1C;
+}
+
+.bg-red {
+    background-color: #D5001F;
+}
+
+.bg-dk-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.bg-grey {
+    background-color: #F5F5F5;
+}
+
 /* layout */
 
 .row {
@@ -309,10 +343,17 @@ img {
 }
 
 #partnership .ltl-square {
-    min-width: calc(100% / 2);
+    width: calc(100% / 2);
     aspect-ratio: 1 / 1;
+    padding: 0px;
 }
 
 #partnership .row.cols-3 {
     gap: 0px;
+}
+
+
+.ltl-square img {
+    width: 50%;
+    filter: invert(100%);
 }
