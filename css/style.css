@@ -106,6 +106,9 @@ img {
     flex-basis: 30%;
 }
 
+.col-20 {
+    flex-basis: 20%;
+}
 
 
 /* tools */
@@ -139,6 +142,10 @@ img {
 
 .mg-btm-30 {
     margin-bottom: 30px;
+}
+
+.mg-btm-10 {
+    margin-bottom: 10px;
 }
 
 /* Buttons */
@@ -416,4 +423,24 @@ img {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.row.cols-5 {
+    justify-content: center;
+}
+
+.col-20 li {
+    margin-bottom: 15px;
+}
+
+.br {
+    border: 1px solid white;
+    width: 120px;
+    padding: 0;
 }
