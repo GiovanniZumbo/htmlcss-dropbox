@@ -201,13 +201,11 @@ img {
 }
 
 .row.cols-3 {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 50px;
 }
 
 .row.cols-3>.col {
-    flex-basis: calc [(100% / 3) - (100px/ 3)];
+    flex-basis: calc(100% / 3 - 100px / 3 - 2px);
     border: 1px solid lightgrey;
 }
 
@@ -218,7 +216,7 @@ img {
 }
 
 .col * {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .plan-card {
