@@ -300,4 +300,19 @@ img {
     color: blue;
 }
 
-/*  */
+/* partnership section*/
+
+#partnership .col {
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3);
+    display: flex;
+}
+
+#partnership .ltl-square {
+    min-width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+#partnership .row.cols-3 {
+    gap: 0px;
+}
