@@ -98,9 +98,14 @@ img {
     flex-basis: 60%;
 }
 
+.col-50 {
+    flex-basis: 50%;
+}
+
 .col-30 {
     flex-basis: 30%;
 }
+
 
 
 /* tools */
@@ -147,6 +152,10 @@ img {
     padding: 5px 10px;
 }
 
+.btn.btn-big {
+    padding: 10px 50px;
+}
+
 .btn.btn-primary {
     color: white;
     background-color: var(--primary-color);
@@ -154,7 +163,9 @@ img {
 
 .btn.btn-secondary {
     border: 1px solid black;
+    background-color: white;
 }
+
 
 /* .sm-pad {
     padding: 10px 0;
@@ -340,6 +351,7 @@ img {
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
     display: flex;
+    /* border: none; */
 }
 
 #partnership .ltl-square {
@@ -352,8 +364,37 @@ img {
     gap: 0px;
 }
 
+.ltl-square {
+    position: relative;
+}
+
 
 .ltl-square img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
     width: 50%;
     filter: invert(100%);
+}
+
+/* Promotion section */
+
+
+#promotion .sm-container {
+    height: 350px;
+    align-items: center;
+}
+
+#promotion h2 {
+    padding: 0;
+    color: #61082B;
+}
+
+#promotion a {
+    border: none;
+}
+
+.row.promotion-row {
+    justify-content: space-between;
 }
