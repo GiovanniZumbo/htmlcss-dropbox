@@ -28,7 +28,6 @@ a {
     color: black;
 }
 
-
 h1 {
     font-size: 75px;
     font-weight: 800;
@@ -97,7 +96,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .row.cols-grow>* {
@@ -151,12 +150,14 @@ img {
     margin: 0 auto;
 }
 
-
 .flex {
     display: flex;
 }
 
 /* Spacing */
+.mg-btm-70 {
+    margin-bottom: 70px;
+}
 
 .mg-btm-30 {
     margin-bottom: 30px;
@@ -240,14 +241,10 @@ img {
     flex-basis: 70%;
 }
 
-#jumboimg {
-    float: right;
-    max-height: 350px;
-}
 
 /* business section */
 
-.business {
+#business {
     font-size: 14px;
 }
 
@@ -310,7 +307,6 @@ img {
 .plan-card hr {
     width: 50px;
     border-color: lightgray;
-
 }
 
 .price {
@@ -325,12 +321,6 @@ img {
 .fa-li {
     display: inline-block;
 }
-
-/* .sm-br {
-    border: 1px solid lightgrey;
-    width: calc(100% / 5);
-    padding: 0;
-} */
 
 .plan-card-left {
     flex-basis: 70%;
@@ -352,8 +342,7 @@ img {
 /* partner section */
 
 #partner {
-    padding-top: 80px;
-    margin-bottom: 50px;
+    padding: 100px 0;
 }
 
 .row.partner-row {
@@ -364,6 +353,10 @@ img {
 
 #operation .col {
     border-color: transparent;
+}
+
+#operation h3 {
+    padding: 20px 0;
 }
 
 /* Find more section */
@@ -383,7 +376,7 @@ img {
 #partnership .col {
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
-    height: calc(100% / 3);
+    min-height: calc(100% / 3);
     display: flex;
     border-color: transparent;
 }
