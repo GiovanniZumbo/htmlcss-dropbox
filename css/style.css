@@ -371,11 +371,18 @@ img {
     border-color: transparent;
 }
 
+#operation h3 {
+    margin-top: 15px;
+    margin-bottom: 30px
+}
+
+;
+
 /* Find more section */
 
 .find-more-content {
     max-width: 60%;
-    padding: 150px 0;
+    margin: 150px 0;
 }
 
 .find-more-content a {
