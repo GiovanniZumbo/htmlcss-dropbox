@@ -27,6 +27,7 @@ a {
     color: black;
 }
 
+
 h1 {
     font-size: 75px;
     font-weight: 800;
@@ -224,7 +225,7 @@ img {
 
 #jumbotron {
     height: 700px;
-    margin-bottom: px;
+    margin-bottom: 150px;
 }
 
 .jumbo-text {
@@ -316,6 +317,11 @@ img {
     flex-grow: 1
 }
 
+.buy-now {
+    text-decoration: underline;
+    color: blue;
+}
+
 /* partner */
 
 #partner {
@@ -345,6 +351,7 @@ img {
 
 .find-more-content {
     max-width: 60%;
+    padding: 150px 0;
 }
 
 .find-more-content a {
@@ -358,6 +365,7 @@ img {
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
     display: flex;
+    border-color: transparent;
     /* border: none; */
 }
 
@@ -378,6 +386,20 @@ img {
     max-width: 50%;
     filter: invert(100%);
 }
+
+.mid-square-content {
+    padding: 0px 50px;
+}
+
+.mid-square-content * {
+    margin: 50px 0;
+    padding: 0;
+}
+
+.mid-square-content img {
+    max-width: 50%;
+}
+
 
 /* Promotion section */
 
@@ -434,7 +456,7 @@ img {
     margin-bottom: 15px;
 }
 
-#footer hr {
+hr {
     width: 120px;
 }
 
